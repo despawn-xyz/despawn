@@ -5,8 +5,8 @@
     "keywords": ["despawn", "laravel"],
     "license": "proprietary",
     "require": {
-        "php": "^8.0.2",
-        "noclip-gg/despawn-core": "*"
+        "noclip-gg/despawn-core": "*",
+        "noclip-gg/despawn-admin": "*"
     },
     "repositories": [
         {

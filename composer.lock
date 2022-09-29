@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "020d4396c5d43cb92e1e090fa07131f8",
+    "content-hash": "0f8a8d698d7fafdecb709363dba329b4",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -73,6 +73,63 @@
                 "source": "https://github.com/akaunting/laravel-money/tree/3.1.2"
             },
             "time": "2022-07-27T08:16:36+00:00"
+        },
+        {
+            "name": "awcodes/filament-tiptap-editor",
+            "version": "v0.3.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/awcodes/filament-tiptap-editor.git",
+                "reference": "f5c426e7a0cf737d1b56dfde829c1a19016568fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/awcodes/filament-tiptap-editor/zipball/f5c426e7a0cf737d1b56dfde829c1a19016568fd",
+                "reference": "f5c426e7a0cf737d1b56dfde829c1a19016568fd",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^2.0",
+                "intervention/image": "^2.7",
+                "php": "^8.0.2",
+                "spatie/laravel-package-tools": "^1.9.2"
+            },
+            "type": "package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "FilamentTiptapEditor\\FilamentTiptapEditorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FilamentTiptapEditor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Weston",
+                    "email": "awcodes1@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Tiptap ingtegration for Filament Admin/Forms.",
+            "keywords": [
+                "filament",
+                "framework",
+                "laravel",
+                "tiptap"
+            ],
+            "support": {
+                "issues": "https://github.com/awcodes/filament-tiptap-editor/issues",
+                "source": "https://github.com/awcodes/filament-tiptap-editor/tree/v0.3.14"
+            },
+            "time": "2022-09-04T22:34:10+00:00"
         },
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -145,16 +202,16 @@
         },
         {
             "name": "blade-ui-kit/blade-icons",
-            "version": "1.3.2",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blade-ui-kit/blade-icons.git",
-                "reference": "88eda22d90138c854ddad856de0ddf581d2f0d79"
+                "reference": "acbe0b4f1f9c71c3e40432ab007a6072222842d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blade-ui-kit/blade-icons/zipball/88eda22d90138c854ddad856de0ddf581d2f0d79",
-                "reference": "88eda22d90138c854ddad856de0ddf581d2f0d79",
+                "url": "https://api.github.com/repos/blade-ui-kit/blade-icons/zipball/acbe0b4f1f9c71c3e40432ab007a6072222842d1",
+                "reference": "acbe0b4f1f9c71c3e40432ab007a6072222842d1",
                 "shasum": ""
             },
             "require": {
@@ -222,7 +279,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-09-21T11:34:49+00:00"
+            "time": "2022-09-28T10:07:24+00:00"
         },
         {
             "name": "brick/math",
@@ -758,16 +815,16 @@
         },
         {
             "name": "filament/filament",
-            "version": "v2.16.17",
+            "version": "v2.16.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/admin.git",
-                "reference": "10051fafb24c86a3d1bd13607afcdecae3bc5dac"
+                "reference": "0a347e668acfff3d84c46904d7f968481ffaa914"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/admin/zipball/10051fafb24c86a3d1bd13607afcdecae3bc5dac",
-                "reference": "10051fafb24c86a3d1bd13607afcdecae3bc5dac",
+                "url": "https://api.github.com/repos/filamentphp/admin/zipball/0a347e668acfff3d84c46904d7f968481ffaa914",
+                "reference": "0a347e668acfff3d84c46904d7f968481ffaa914",
                 "shasum": ""
             },
             "require": {
@@ -817,20 +874,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2022-09-26T11:48:31+00:00"
+            "time": "2022-09-29T08:10:54+00:00"
         },
         {
             "name": "filament/forms",
-            "version": "v2.16.17",
+            "version": "v2.16.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/forms.git",
-                "reference": "fdb1c5680eb6d6d4f19b92aa2148c9bb910c1f2c"
+                "reference": "e622e91283e7d7586c96b2fc45874df80d3f2d89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/forms/zipball/fdb1c5680eb6d6d4f19b92aa2148c9bb910c1f2c",
-                "reference": "fdb1c5680eb6d6d4f19b92aa2148c9bb910c1f2c",
+                "url": "https://api.github.com/repos/filamentphp/forms/zipball/e622e91283e7d7586c96b2fc45874df80d3f2d89",
+                "reference": "e622e91283e7d7586c96b2fc45874df80d3f2d89",
                 "shasum": ""
             },
             "require": {
@@ -875,11 +932,11 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2022-09-26T11:48:26+00:00"
+            "time": "2022-09-29T08:10:48+00:00"
         },
         {
             "name": "filament/notifications",
-            "version": "v2.16.17",
+            "version": "v2.16.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/notifications.git",
@@ -929,16 +986,16 @@
         },
         {
             "name": "filament/support",
-            "version": "v2.16.17",
+            "version": "v2.16.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/support.git",
-                "reference": "d9d2036e8e41c97960e0dca6cd4a499a95d5da15"
+                "reference": "413828a2a8f529ffc800b80e255548f6a4c9a3ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/support/zipball/d9d2036e8e41c97960e0dca6cd4a499a95d5da15",
-                "reference": "d9d2036e8e41c97960e0dca6cd4a499a95d5da15",
+                "url": "https://api.github.com/repos/filamentphp/support/zipball/413828a2a8f529ffc800b80e255548f6a4c9a3ce",
+                "reference": "413828a2a8f529ffc800b80e255548f6a4c9a3ce",
                 "shasum": ""
             },
             "require": {
@@ -975,20 +1032,20 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2022-09-25T11:51:25+00:00"
+            "time": "2022-09-29T08:10:54+00:00"
         },
         {
             "name": "filament/tables",
-            "version": "v2.16.17",
+            "version": "v2.16.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filamentphp/tables.git",
-                "reference": "186d0b286b1dd08b3d76778be6c83b22021e7b62"
+                "reference": "758fa9583b9b77ac21d0fe1a235888de1fa281f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filamentphp/tables/zipball/186d0b286b1dd08b3d76778be6c83b22021e7b62",
-                "reference": "186d0b286b1dd08b3d76778be6c83b22021e7b62",
+                "url": "https://api.github.com/repos/filamentphp/tables/zipball/758fa9583b9b77ac21d0fe1a235888de1fa281f3",
+                "reference": "758fa9583b9b77ac21d0fe1a235888de1fa281f3",
                 "shasum": ""
             },
             "require": {
@@ -1031,7 +1088,7 @@
                 "issues": "https://github.com/filamentphp/filament/issues",
                 "source": "https://github.com/filamentphp/filament"
             },
-            "time": "2022-09-26T11:48:54+00:00"
+            "time": "2022-09-29T08:10:48+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -1565,6 +1622,90 @@
                 }
             ],
             "time": "2022-06-27T23:21:15+00:00"
+        },
+        {
+            "name": "intervention/image",
+            "version": "2.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Intervention/image.git",
+                "reference": "04be355f8d6734c826045d02a1079ad658322dad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/04be355f8d6734c826045d02a1079ad658322dad",
+                "reference": "04be355f8d6734c826045d02a1079ad658322dad",
+                "shasum": ""
+            },
+            "require": {
+                "ext-fileinfo": "*",
+                "guzzlehttp/psr7": "~1.1 || ^2.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.2",
+                "phpunit/phpunit": "^4.8 || ^5.7 || ^7.5.15"
+            },
+            "suggest": {
+                "ext-gd": "to use GD library based image processing.",
+                "ext-imagick": "to use Imagick based image processing.",
+                "intervention/imagecache": "Caching extension for the Intervention Image library"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Intervention\\Image\\ImageServiceProvider"
+                    ],
+                    "aliases": {
+                        "Image": "Intervention\\Image\\Facades\\Image"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Intervention\\Image\\": "src/Intervention/Image"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oliver Vogel",
+                    "email": "oliver@intervention.io",
+                    "homepage": "https://intervention.io/"
+                }
+            ],
+            "description": "Image handling and manipulation library with support for Laravel integration",
+            "homepage": "http://image.intervention.io/",
+            "keywords": [
+                "gd",
+                "image",
+                "imagick",
+                "laravel",
+                "thumbnail",
+                "watermark"
+            ],
+            "support": {
+                "issues": "https://github.com/Intervention/image/issues",
+                "source": "https://github.com/Intervention/image/tree/2.7.2"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/interventionio",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/Intervention",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-05-21T17:30:32+00:00"
         },
         {
             "name": "laravel/framework",
@@ -2899,15 +3040,54 @@
             "time": "2022-09-04T07:30:47+00:00"
         },
         {
+            "name": "noclip-gg/despawn-admin",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/despawn-admin",
+                "reference": "6d0a1ad7ddfad41e366ec31887537809aa15084c"
+            },
+            "require": {
+                "awcodes/filament-tiptap-editor": "^0.3.14",
+                "filament/filament": "^2.16"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Despawn\\DespawnAdminServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Despawn\\": "src/"
+                }
+            },
+            "license": [
+                "propietary"
+            ],
+            "authors": [
+                {
+                    "name": "robertdennis",
+                    "email": "robertdennispersonal@gmail.com"
+                }
+            ],
+            "description": "Admin panel for Despawn.gg",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "noclip-gg/despawn-core",
-            "version": "dev-main",
+            "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "packages/despawn-core",
-                "reference": "6f2115e435b6bc5230eb14d7320be7bceb463580"
+                "reference": "96ca82430f14161f630dbd68501283497828ae8a"
             },
             "require": {
-                "filament/filament": "^2.0",
+                "filament/filament": "^2.16",
                 "guzzlehttp/guzzle": "^7.2",
                 "inertiajs/inertia-laravel": "^0.6.3",
                 "laravel/framework": "^9.19",
@@ -6696,16 +6876,16 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v6.3.0",
+            "version": "v6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "17f600e2e8872856ff2846243efb74ad4b6da531"
+                "reference": "0f6349c3ed5dd28467087b08fb59384bb458a22b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/17f600e2e8872856ff2846243efb74ad4b6da531",
-                "reference": "17f600e2e8872856ff2846243efb74ad4b6da531",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/0f6349c3ed5dd28467087b08fb59384bb458a22b",
+                "reference": "0f6349c3ed5dd28467087b08fb59384bb458a22b",
                 "shasum": ""
             },
             "require": {
@@ -6780,7 +6960,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-08-29T09:11:20+00:00"
+            "time": "2022-09-29T12:29:49+00:00"
         },
         {
             "name": "spatie/backtrace",
@@ -7084,9 +7264,7 @@
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": {
-        "php": "^8.0.2"
-    },
+    "platform": [],
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
 }
