@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "@heroicons/vue": "^2.0.11",
-    "clsx": "^1.2.1"
+    "clsx": "^1.2.1",
+    "momentum-modal": "^0.1.13",
+    "momentum-paginator": "^0.1.5"
   }
 }

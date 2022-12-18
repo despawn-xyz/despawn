@@ -5,8 +5,9 @@
     "keywords": ["despawn", "laravel"],
     "license": "proprietary",
     "require": {
-        "noclip-gg/despawn-core": "*",
-        "noclip-gg/despawn-admin": "*"
+        "based/momentum-modal": "^0.1.8",
+        "noclip-gg/despawn-admin": "*",
+        "noclip-gg/despawn-core": "*"
     },
     "repositories": [
         {
@@ -15,6 +16,7 @@
         }
     ],
     "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.12",
         "nunomaduro/collision": "^6.1",
         "spatie/laravel-ignition": "^1.0"
     },
