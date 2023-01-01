@@ -5,7 +5,7 @@ namespace App\Providers;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
-use Illuminate\Support\Facades\Event;
+use Despawn\Support\Providers\Steam\SteamExtendSocialite;
 
 class EventServiceProvider extends ServiceProvider
 {
@@ -20,7 +20,7 @@ class EventServiceProvider extends ServiceProvider
         ],
         \SocialiteProviders\Manager\SocialiteWasCalled::class => [
             // ... other providers
-            \SocialiteProviders\Steam\SteamExtendSocialite::class.'@handle',
+            SteamExtendSocialite::class.'@handle',
         ],
     ];
 
